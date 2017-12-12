@@ -8,49 +8,43 @@
 
 html, body {
 	height: 100%;
-	margin: 0;
-	padding: 0; }
+ 	margin: 0px;
+	padding: 0px;}
 
 /* ============= header styles ============= */
 
-.welcome-image-and-title {
-	width: 100%;
-	height: 100%;
-	max-height: 100%;
-	margin: 0;
-	padding: 0;
-	background-image: src="assets/img/apple-music.jpg" ;
-	background-size: 100% 100% ;
-	background-repeat: no-repeat;
-	position: relative;}
+section#welcome {
+	background: url("../img/apple-music.jpg") no-repeat;
+	display: grid;
+	grid-template-columns: 30%;
+	min-height: 600px;
+	background-size:contain;
+}
 
-.welcome-title {
-	position: absolute;
-    top: 40%;
-    left: 25%;
-    transform: translate(-50%, -50%);
-		max-width: 45%;
+div.welcome-title {
 	color: white;
-	font-size: 75px;
- 	font-family: "TypoGraphica";
-	line-height: 150%; }
+	text-align: center;
+}
 
-.welcome-my-name {
- 	position: absolute;
-		top: 70%;
-		left: 18%;
-		transform: translate(-50%; -50%);
-		max-width: 30%;
-	color: white;
-	font-size: 15px;
- 	font-family: "opensans-regular-webfont";
- 	text-shadow: 1px, 1px, 2px, black;
-	opacity: 0.5; }
+div.welcome-title p {
+	font-family: "TypoGraphica";
+	line-height: 150%;
+	padding-left: 10%;
+	font-size: 400%;
+}
+
+div.welcome-title small {
+	font-family: "opensans-regular-webfont";
+	text-shadow: 1px, 1px, 2px, black;
+	opacity: 0.5;
+	padding-bottom: 5%;
+	font-size: 100%;
+}
 
 /* ============= section layout styles ============= */
 
 section#intro-title div {
-	padding-top: 5%;}
+	margin-top: 8%;}
 
 section#intro-content div {
 	padding-top: 2%;
@@ -205,3 +199,5 @@ section#broader-implications {
 	section#look-at-apple-music { grid-template-columns: 1fr 1fr 1fr; }
 	section#data-project { grid-template-columns: 1fr 1fr; }
 	section#broader-implications { grid-template-columns: 1fr 1fr; } }
+
+}
