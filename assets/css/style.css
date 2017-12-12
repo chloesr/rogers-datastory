@@ -147,6 +147,11 @@ section#intro-title div {
 	color: #4c4c4cd6;
 	font-family: "opensans-lightitalic-webfont";}
 
+@media screen and (max-width: 1080px) {
+	section#intro-title div {font-size: 100px; }
+}
+
+
 section#intro-content div {
 	font-size: 22px;
 	color: black;
