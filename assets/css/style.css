@@ -17,12 +17,12 @@ section#welcome {
 	background: url("../img/apple-music.jpg") no-repeat;
 	display: grid;
 	grid-template-columns: 40%;
-	background-size: cover;
+	background-size: contain;
 	min-height: 650px;
 }
 
-@media screen and (max-width: 1080px) {
-	section#welcome {background-size: contain;}
+/* @media screen and (max-width: 1080px) {
+	section#welcome {background-size: contain;} */
 }
 
 div.welcome-title p {
@@ -30,14 +30,14 @@ div.welcome-title p {
 	line-height: 150%;
 	color: white;
 	text-align: center;
-	font-size: 400%;
+	/* font-size: 400%; */
 }
 
-@media screen and (max-width: 1080px) {
+/* @media screen and (max-width: 1080px) {
 	div.welcome-title p {
 		font-size: 100%;
 	}
-}
+} */
 
 div.welcome-title small {
 	font-family: "opensans-regular-webfont";
@@ -50,10 +50,10 @@ div.welcome-title small {
 	text-align: center;
 }
 
-@media screen and (max-width: 1080px) {
+/* @media screen and (max-width: 1080px) {
 	div.welcome-title small {
 		display:none;
-	}
+	} */
 /* ============= section layout styles ============= */
 
 section#intro-title div {
