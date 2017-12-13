@@ -162,6 +162,13 @@ div.video iframe {
 	height: 100%;
 }
 
+@media screen and (max-width: 1080px) {
+	div.video iframe {
+		position: relative;
+		width: 800px;
+		height: 500px;	}
+}
+
 section#intro-title div {
 	font-size: 60px;
 	color: #4c4c4cd6;
