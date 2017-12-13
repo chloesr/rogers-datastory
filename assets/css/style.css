@@ -175,13 +175,9 @@ div.video iframe {
 }
 
 section#intro-title div {
-	font-size: 60px;
+	font-size: 50px;
 	color: #4c4c4cd6;
 	font-family: "opensans-lightitalic-webfont";
-}
-
-section#intro-title div {
-	font-size: 80px;
 }
 
 div.intro-explanation {
