@@ -221,7 +221,7 @@ section#apple-music-closer {
 }
 
 @media screen and (max-width: 1080px) {
-	section#apple-music-closer {font-size: 28px;}
+	section#apple-music-closer {font-size: 35px;}
 }
 
 div.video-explanation {
@@ -232,6 +232,7 @@ div.video-explanation {
 @media screen and (max-width: 1080px) {
 	div.video-explanation {font-size: 30px;}
 }
+
 section#look-at-apple-music {
 	display: grid;
 	grid-gap: 10%;
