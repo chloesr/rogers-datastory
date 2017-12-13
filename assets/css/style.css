@@ -26,7 +26,7 @@ div.welcome-title p {
 }
 
 @media screen and (max-width: 1080px) {
-	div.welcome-title p {font-size: 200%;}
+	div.welcome-title p {font-size: 300%;}
 }
 
 div.welcome-title small {
@@ -175,19 +175,24 @@ div.video iframe {
 }
 
 section#intro-title div {
-	font-size: 40px;
+	font-size: 60px;
 	color: #4c4c4cd6;
 	font-family: "opensans-lightitalic-webfont";
 }
 
-section#intro-content {
-	font-size: 15px;
+section#intro-title div {
+	font-size: 80px;
+}
+
+div.intro-explanation {
+	font-size: 20px;
 	color: black;
 	font-family: "opensans-regular-webfont";
+	line-height: 175%;
 }
 
 @media screen and (max-width: 1080px) {
-	section#into-content div {font-size: 12px;}
+	div.intro-explanation {font-size: 10px;}
 }
 
 section#data-project h1 {
@@ -196,17 +201,17 @@ section#data-project h1 {
 }
 
 @media screen and (max-width: 1080px) {
-	section#data-project h1 {font-size: 70px;	}
+	section#data-project h1 {font-size: 50px;	}
 }
 
 section#data-project p {
 	font-family: "opensans-regular-webfont";
-	font-size: 20px;
-	line-height: 200%;
+	font-size: 18px;
+	line-height: 175%;
 }
 
 @media screen and (max-width: 1080px) {
-	section#data-project p {font-size: 15px; }
+	section#data-project p {font-size: 13px; }
 }
 
 section#apple-music-opener {
