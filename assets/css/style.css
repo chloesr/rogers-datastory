@@ -91,7 +91,7 @@ section#look-at-apple-music {
 }
 
 @media screen and (max-width: 1080px) {
-	section#look-at-apple-music {margin-right: 13%;}
+	section#look-at-apple-music img {margin-left: 4%;}
 }
 
 section#look-at-apple-music img {
