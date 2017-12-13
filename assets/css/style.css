@@ -21,17 +21,17 @@ div.welcome-title p {
 	line-height: 150%;
 	color: white;
 	text-align: center;
-	font-size: 800%;
+	font-size: 500%;
 	font-family: "typographica_1-webfont";
 }
 
 @media screen and (max-width: 1080px) {
-	div.welcome-title p {font-size: 400%;}
+	div.welcome-title p {font-size: 200%;}
 }
 
 div.welcome-title small {
 	color: white;
-	font-size: 200%;
+	font-size: 100%;
 	font-family: "opensans-regular-webfont";
 	padding-left: 30%;
 	opacity: 0.5;
@@ -175,20 +175,24 @@ div.video iframe {
 }
 
 section#intro-title div {
-	font-size: 90px;
+	font-size: 40px;
 	color: #4c4c4cd6;
 	font-family: "opensans-lightitalic-webfont";
 }
 
-section#intro-content div {
-	font-size: 35px;
+section#intro-content {
+	font-size: 15px;
 	color: black;
 	font-family: "opensans-regular-webfont";
 }
 
+@media screen and (max-width: 1080px) {
+	section#into-content div {font-size: 12px;}
+}
+
 section#data-project h1 {
 	font-family: "opensans-lightitalic-webfont";
-	font-size: 60px;
+	font-size: 40px;
 }
 
 @media screen and (max-width: 1080px) {
@@ -197,29 +201,29 @@ section#data-project h1 {
 
 section#data-project p {
 	font-family: "opensans-regular-webfont";
-	font-size: 35px;
+	font-size: 20px;
 	line-height: 200%;
 }
 
 @media screen and (max-width: 1080px) {
-	section#data-project p {font-size: 30px; }
+	section#data-project p {font-size: 15px; }
 }
 
 section#apple-music-opener {
 	font-family: "opensans-lightitalic-webfont";
-	font-size: 45px;
+	font-size: 25px;
 	margin-top: 3%;
 	margin-bottom: 3%;
 }
 
 @media screen and (max-width: 1080px) {
-	section#apple-music-opener {font-size: 50px;}
+	section#apple-music-opener {font-size: 30px;}
 }
 
 div.apple-music-app {
 	line-height: 200%;
 	font-family: "opensans-regular-webfont";
-	font-size: 28px;
+	font-size: 15px;
 }
 
 @media screen and (max-width: 1080px) {
@@ -228,17 +232,17 @@ div.apple-music-app {
 
 section#apple-music-closer {
 	font-family: "opensans-lightitalic-webfont";
-	font-size: 45px;
+	font-size: 25px;
 	margin-top: 5%;
 }
 
 @media screen and (max-width: 1080px) {
-	section#apple-music-closer {font-size: 35px;}
+	section#apple-music-closer {font-size: 20px;}
 }
 
 div.video-explanation {
 	font-family: "opensans-regular-webfont";
-	font-size: 30px;
+	font-size: 15px;
 }
 
 @media screen and (max-width: 1080px) {
@@ -260,6 +264,6 @@ section#broader-implications {
 
 @media screen and (min-width: 1080px) {
 	section#look-at-apple-music { grid-template-columns: 1fr 1fr 1fr; }
-	section#data-project { grid-template-columns: 1fr 1fr; }
+	section#data-project { grid-template-columns: 40% 1fr; }
 	section#broader-implications { grid-template-columns: 1fr 1fr; }
 }
