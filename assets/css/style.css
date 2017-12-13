@@ -78,11 +78,8 @@ div.svg {
 }
 
 @media screen and (max-width: 1080px) {
-	div.svg {
-		align-items: center;}
+	div.svg {align: center;	}
 }
-
-
 
 section#apple-music-opener {
 	padding-top: 2%;
@@ -125,6 +122,10 @@ section#apple-music-closer {
 	padding-left: 5%;
 	padding-right: 5%;
 	padding-bottom: 3%;
+}
+
+@media and screen (max-width: 1080px) {
+	section#apple-music-closer {max-width: 70%;}
 }
 
 div.video-explanation {
