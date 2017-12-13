@@ -104,6 +104,10 @@ section#look-at-apple-music img {
  	padding: 2%;
 }
 
+@media screen and (max-width: 1080px) {
+	section#look-at-apple-music img {max-width: 50%;}
+}
+
 p#paragraph-border {
 	margin-left: 4%;
 	background: #ceceee80;
