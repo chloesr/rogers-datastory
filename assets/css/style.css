@@ -21,13 +21,17 @@ div.welcome-title p {
 	line-height: 150%;
 	color: white;
 	text-align: center;
-	font-size: 400%;
+	font-size: 800%;
 	font-family: "typographica_1-webfont";
+}
+
+@media screen and (max-width: 1080px) {
+	div.welcome-title p {font-size: 400%;}
 }
 
 div.welcome-title small {
 	color: white;
-	font-size: 100%;
+	font-size: 200%;
 	font-family: "opensans-regular-webfont";
 	padding-left: 30%;
 	opacity: 0.5;
@@ -39,7 +43,7 @@ div.welcome-title small {
 }
 
 section#intro-title div {
-	margin-top: 8%;
+	margin-top: 5%;
 }
 
 section#intro-content div {
@@ -171,20 +175,20 @@ div.video iframe {
 }
 
 section#intro-title div {
-	font-size: 60px;
+	font-size: 90px;
 	color: #4c4c4cd6;
 	font-family: "opensans-lightitalic-webfont";
 }
 
 section#intro-content div {
-	font-size: 22px;
+	font-size: 35px;
 	color: black;
 	font-family: "opensans-regular-webfont";
 }
 
 section#data-project h1 {
 	font-family: "opensans-lightitalic-webfont";
-	font-size: 40px;
+	font-size: 60px;
 }
 
 @media screen and (max-width: 1080px) {
@@ -193,7 +197,7 @@ section#data-project h1 {
 
 section#data-project p {
 	font-family: "opensans-regular-webfont";
-	font-size: 20px;
+	font-size: 35px;
 	line-height: 200%;
 }
 
@@ -203,7 +207,7 @@ section#data-project p {
 
 section#apple-music-opener {
 	font-family: "opensans-lightitalic-webfont";
-	font-size: 20px;
+	font-size: 45px;
 	margin-top: 3%;
 	margin-bottom: 3%;
 }
@@ -215,7 +219,7 @@ section#apple-music-opener {
 div.apple-music-app {
 	line-height: 200%;
 	font-family: "opensans-regular-webfont";
-	font-size: 17px;
+	font-size: 28px;
 }
 
 @media screen and (max-width: 1080px) {
@@ -224,7 +228,7 @@ div.apple-music-app {
 
 section#apple-music-closer {
 	font-family: "opensans-lightitalic-webfont";
-	font-size: 25px;
+	font-size: 45px;
 	margin-top: 5%;
 }
 
@@ -234,7 +238,7 @@ section#apple-music-closer {
 
 div.video-explanation {
 	font-family: "opensans-regular-webfont";
-	font-size: 18px;
+	font-size: 30px;
 }
 
 @media screen and (max-width: 1080px) {
