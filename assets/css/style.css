@@ -69,14 +69,20 @@ div.svg-text {
 		margin-left: 10%;
 }
 
-.svg {
-	margin-right: 5%;
+div.svg {
 	margin-top: 5%;
 	margin-bottom: 5%;
 	border: black;
 	border-style: solid;
 	border-width: thin;
 }
+
+@media screen and (max-width: 1080px) {
+	div.svg {
+		align-items: center;}
+}
+
+
 
 section#apple-music-opener {
 	padding-top: 2%;
@@ -88,7 +94,7 @@ section#look-at-apple-music {
 }
 
 @media screen and (max-width: 1080px) {
-	section#look-at-apple-music {margin-right: 15%;}
+	section#look-at-apple-music {margin-right: 13%;}
 }
 
 section#look-at-apple-music img {
@@ -102,7 +108,7 @@ section#look-at-apple-music img {
 }
 
 p#paragraph-border {
-	margin-left: 6%;
+	margin-left: 4%;
 	background: #ceceee80;
 	border: 5px white;
 		border-radius: 30px;
