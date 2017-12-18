@@ -1,6 +1,10 @@
+/* ========== font-families ========== */
+
 @font-face {font-family: 'typographica_1-webfont'; src:url('../font/typographica_1-webfont.woff') format('woff'); font-weight: normal; font-style: normal}
 @font-face {font-family: 'opensans-regular-webfont'; src:url('../font/opensans-regular-webfont.woff') format('woff'); font-weight: normal; font-style: normal}
 @font-face {font-family: 'opensans-lightitalic-webfont'; src:url('../font/opensans-lightitalic-webfont.woff') format('woff'); font-weight: normal; font-style: normal}
+
+/* ========== general styles ========== */
 
 html, body {
 	height: 100%;
@@ -8,6 +12,8 @@ html, body {
 	padding: 0px;
 	overflow: scroll;
 }
+
+/* ========== header styles ========== */
 
 section#welcome {
 	background: url("../img/apple-music.jpg") no-repeat;
@@ -41,6 +47,8 @@ div.welcome-title small {
 	div.welcome-title small {
 		display: none; }
 }
+
+/* ========== section styles ========== */
 
 section#intro-title div {
 	margin-top: 5%;
@@ -174,6 +182,8 @@ div.video iframe {
 		height: 500px;	}
 }
 
+/* ========== text styles ========== */
+
 div.white-space {
 	font-size: 50px;
 	color: #4c4c4cd6;
@@ -257,6 +267,8 @@ div.video-explanation {
 @media screen and (max-width: 1080px) {
 	div.video-explanation {font-size: 30px;}
 }
+
+/* ========== grid styles ========== */
 
 section#look-at-apple-music {
 	display: grid;
