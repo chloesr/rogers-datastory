@@ -32,7 +32,8 @@ div.welcome-title p {
 }
 
 @media screen and (max-width: 1080px) {
-	div.welcome-title p {font-size: 300%;}
+	div.welcome-title p {
+		font-size: 400%; }
 }
 
 div.welcome-title small {
@@ -91,7 +92,8 @@ div.svg {
 }
 
 @media screen and (max-width: 1080px) {
-	div.svg {align: center;	}
+	div.svg {
+		align: center; }
 }
 
 section#apple-music-opener {
@@ -104,7 +106,8 @@ section#look-at-apple-music {
 }
 
 @media screen and (max-width: 1080px) {
-	section#look-at-apple-music img {margin-left: 4%;}
+	section#look-at-apple-music img {
+		margin-left: 4%; }
 }
 
 section#look-at-apple-music img {
@@ -118,7 +121,8 @@ section#look-at-apple-music img {
 }
 
 @media screen and (max-width: 1080px) {
-	section#look-at-apple-music img {max-width: 50%;}
+	section#look-at-apple-music img {
+		max-width: 50%; }
 }
 
 p#paragraph-border {
@@ -179,7 +183,7 @@ div.video iframe {
 	div.video iframe {
 		position: relative;
 		width: 800px;
-		height: 500px;	}
+		height: 500px; }
 }
 
 /* ========== text styles ========== */
@@ -191,6 +195,10 @@ div.white-space {
 	text-align: center;
 }
 
+@media screen and (max-width: 1080px) {
+	div.white-space {font-size: 60px;	}
+}
+
 div.intro-explanation {
 	font-size: 20px;
 	color: black;
@@ -200,7 +208,7 @@ div.intro-explanation {
 }
 
 @media screen and (max-width: 1080px) {
-	div.intro-explanation {font-size: 10px;}
+	div.intro-explanation {	font-size: 30px; }
 }
 
 section#data-project h1 {
@@ -221,7 +229,8 @@ section#data-project p {
 }
 
 @media screen and (max-width: 1080px) {
-	section#data-project p {font-size: 13px; }
+	section#data-project p {
+		font-size: 30px; }
 }
 
 section#apple-music-opener {
@@ -233,7 +242,8 @@ section#apple-music-opener {
 }
 
 @media screen and (max-width: 1080px) {
-	section#apple-music-opener {font-size: 30px;}
+	section#apple-music-opener {
+		font-size: 30px;}
 }
 
 div.apple-music-app {
@@ -244,7 +254,8 @@ div.apple-music-app {
 }
 
 @media screen and (max-width: 1080px) {
-	div.apple-music-app {font-size: 30px;}
+	div.apple-music-app {
+		font-size: 30px;}
 }
 
 section#apple-music-closer {
@@ -255,7 +266,8 @@ section#apple-music-closer {
 }
 
 @media screen and (max-width: 1080px) {
-	section#apple-music-closer {font-size: 20px;}
+	section#apple-music-closer {
+		font-size: 50px; }
 }
 
 div.video-explanation {
@@ -265,7 +277,8 @@ div.video-explanation {
 }
 
 @media screen and (max-width: 1080px) {
-	div.video-explanation {font-size: 30px;}
+	div.video-explanation {
+		font-size: 30px; }
 }
 
 /* ========== grid styles ========== */
