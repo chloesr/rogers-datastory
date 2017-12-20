@@ -125,7 +125,7 @@ section#look-at-apple-music img {
 		max-width: 50%; }
 }
 
-p#paragraph-border {
+p.paragraph-border {
 	margin-left: 4%;
 	background: #ceceee80;
 	border: 5px white;
