@@ -243,7 +243,7 @@ section#apple-music-opener {
 
 @media screen and (max-width: 1080px) {
 	section#apple-music-opener {
-		font-size: 30px;}
+		font-size: 35px;}
 }
 
 div.apple-music-app {
@@ -267,7 +267,7 @@ section#apple-music-closer {
 
 @media screen and (max-width: 1080px) {
 	section#apple-music-closer {
-		font-size: 50px; }
+		font-size: 35px; }
 }
 
 div.video-explanation {
